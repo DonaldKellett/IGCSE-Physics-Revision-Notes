@@ -29,6 +29,13 @@
 						<li><a href="#elements">Elements</a></li>
 						<li><a href="#grid">Grid System</a></li> -->
 						<li><a href="index.html">Home</a></li>
+						<li><a href="section-a.html">Section A</a></li>
+						<li><a href="section-b.html">Section B</a></li>
+						<li><a href="section-c.html">Section C</a></li>
+						<li><a href="section-d.html">Section D</a></li>
+						<li><a href="section-e.html">Section E</a></li>
+						<li><a href="section-f.html">Section F</a></li>
+						<li><a href="section-g.html">Section G</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -36,7 +43,38 @@
 		<!-- Main -->
 			<div id="main" class="container">
 
-				
+				<div class="row" style="display: none;">
+					<div class="12u$">
+						<h2>Section A</h2>
+						<p><em>Section A is coming soon!  Thank you for your patience.</em></p>
+					</div>
+				</div>
+
+				<div class="row" style="display: none;">
+					<div class="12u$">
+						<h2>Section A - Test Divider</h2>
+						<!-- This is the button that shows the hidden paragraph when clicked.
+						When clicked:
+						- The style of the hidden paragraph is changed to "display: block;" to show the hidden paragraph
+						- The style of the "Show" button itself is changed to "display: none;" to hide the button
+						- The style of the "Hide" button is changed to "display: block;" to show the hide button -->
+						<p id="show-test-paragraph-1">[<a onclick="          document.getElementById('test-paragraph-1').style.display = 'block';                                             document.getElementById('show-test-paragraph-1').style.display = 'none';                                    document.getElementById('hide-test-paragraph-1').style.display = 'block';                                         ">Show</a>]</p>
+						<!-- This is the button that hides the hidden paragraph when clicked.
+						When clicked:
+						- The style of the hidden paragraph is changed to "display: none;" to hide the hidden paragraph
+						- The style of the "Show" button is changed to "display: block;" to make the "Show" butto reappear
+						- The style of the "Hide" button itself is changed to "display: none;" to hide the hide button -->
+						<p id="hide-test-paragraph-1" style="display: none;">[<a onclick="                                            document.getElementById('test-paragraph-1').style.display = 'none';                                             document.getElementById('show-test-paragraph-1').style.display = 'block';                                    document.getElementById('hide-test-paragraph-1').style.display = 'none';                                         ">Hide</a>]</p>
+						<!-- This is the test paragraph to be shown/hidden. -->
+						<p id="test-paragraph-1" style="display: none;">This is a test paragraph</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="12u$">
+						<h2>Section A</h2>
+					</div>
+				</div>
 
 				<hr class="major" style="display: none;" />
 
