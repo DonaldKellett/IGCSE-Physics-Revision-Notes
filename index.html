@@ -16,6 +16,25 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
+		<style>
+		/* This is a temporary internal style sheet. */
+		.alert {
+			padding: 8px;
+			margin-bottom: 20px;
+			text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+			background-color: #fffcee;
+			border: 1px solid #ffedca;
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			border-radius: 4px;
+			background-color: #fff0f0;
+			border-color: #ffdce1;
+			color: #9d261d;
+		}
+		.alert a {
+			color: #c83025;
+		}
+		</style>
 	</head>
 	<body id="top">
 
@@ -55,6 +74,11 @@
 			<div id="main" class="container">
 
 				<div class="row">
+					<div class="12u$">
+						<div class="alert" id="incomplete-alert-box">
+							<p>This IGCSE Physics Revision Site is not complete yet.  For this reason, content in some of the sections may be missing.  <a onclick="document.getElementById('incomplete-alert-box').style.display = 'none';">Close</a></p>
+						</div>
+					</div>
 					<div class="6u 12u$(medium)">
 						<h3>Welcome to Donald Leung's IGCSE Physics Revision Notes!</h3>
 						<p>This website contains all of Donald Leung's IGCSE Physics Revision Notes <em>from Section A to Section G</em>.</p>
