@@ -1,0 +1,61 @@
+CACHE MANIFEST
+# An example of a functioning application cache that you could use in case you want to redistribute these notes in the form of a website
+# Application caches allow the user to browse the site even when there is no internet connection available
+# For more information, go to the following link: http://www.html5rocks.com/en/tutorials/appcache/beginner/
+# Enter your version number here (e.g. Currently in v1)
+
+# Stylesheets
+css/font-awesome.min.css
+css/skel.css
+css/style-large.css
+css/style-medium.css
+css/style-small.css
+css/style-xlarge.css
+css/style-xsmall.css
+css/style.css
+
+# Fonts
+fonts/fontawesome-webfont.eot
+fonts/fontawesome-webfont.svg
+fonts/fontawesome-webfont.ttf
+fonts/fontawesome-webfont.woff
+fonts/FontAwesome.otf
+
+# Images
+images/pic01.jpg
+images/pic02.jpg
+
+# Javascript
+js/html5shiv.js
+js/init.js
+js/jquery.min.js
+js/skel-layers.min.js
+js/skel.min.js
+
+# License
+LICENSE.txt
+
+# Extra Resources
+
+# Section A
+# (none)
+
+# Section B
+section-b_A.png
+section-b_B.png
+section-b_C.png
+section-b_D.png
+
+# Section C
+# (none)
+
+# Section D
+# (none)
+
+# Section E
+# Section F
+# Section G
+
+NETWORK:
+README.md
+README.txt
