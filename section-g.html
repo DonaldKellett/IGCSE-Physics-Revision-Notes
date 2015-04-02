@@ -55,64 +55,22 @@
 										<th>Measurement</th>
 										<th>
 											Units
-											<span id="show-units" style="float: right;">[<a onclick="document.getElementById('show-units').style.display = 'none'; document.getElementById('hide-units').style.display = 'block'; document.getElementById('unit-1').style.visibility = 'visible'; document.getElementById('unit-2').style.visibility = 'visible'; document.getElementById('unit-3').style.visibility = 'visible'; document.getElementById('unit-4').style.visibility = 'visible'; document.getElementById('unit-5').style.visibility = 'visible'; document.getElementById('unit-6').style.visibility = 'visible'; document.getElementById('unit-7').style.visibility = 'visible'; document.getElementById('unit-8').style.visibility = 'visible'; document.getElementById('unit-9').style.visibility = 'visible'; ">Show</a>]</span>
-											<span id="hide-units" style="float: right; display: none;">[<a onclick="document.getElementById('show-units').style.display = 'block'; document.getElementById('hide-units').style.display = 'none'; document.getElementById('unit-1').style.visibility = 'hidden'; document.getElementById('unit-2').style.visibility = 'hidden'; document.getElementById('unit-3').style.visibility = 'hidden'; document.getElementById('unit-4').style.visibility = 'hidden'; document.getElementById('unit-5').style.visibility = 'hidden'; document.getElementById('unit-6').style.visibility = 'hidden'; document.getElementById('unit-7').style.visibility = 'hidden'; document.getElementById('unit-8').style.visibility = 'hidden'; document.getElementById('unit-9').style.visibility = 'hidden'; ">Hide</a>]</span>
+											<span id="show-units" style="float: right;">[<a onclick="document.getElementById('show-units').style.display = 'none'; document.getElementById('hide-units').style.display = 'block'; document.getElementById('unit-1').style.visibility = 'visible'; document.getElementById('unit-2').style.visibility = 'visible';">Show</a>]</span>
+											<span id="hide-units" style="float: right; display: none;">[<a onclick="document.getElementById('show-units').style.display = 'block'; document.getElementById('hide-units').style.display = 'none'; document.getElementById('unit-1').style.visibility = 'hidden'; document.getElementById('unit-2').style.visibility = 'hidden';">Hide</a>]</span>
 										</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<td>Measurement 1</td>
+										<td>Count Rate (Radioactivity)</td>
 										<td>
-											<span id="unit-1" style="visibility: hidden;">Unit 1</span>
+											<span id="unit-1" style="visibility: hidden;">Bq, kBq or MBq</span>
 										</td>
 									</tr>
 									<tr>
-										<td>Measurement 2</td>
+										<td>Half-life</td>
 										<td>
-											<span id="unit-2" style="visibility: hidden;">Unit 2</span>
-										</td>
-									</tr>
-									<tr>
-										<td>Measurement 3</td>
-										<td>
-											<span id="unit-3" style="visibility: hidden;">Unit 3</span>
-										</td>
-									</tr>
-									<tr>
-										<td>Measurement 4</td>
-										<td>
-											<span id="unit-4" style="visibility: hidden;">Unit 4</span>
-										</td>
-									</tr>
-									<tr>
-										<td>Measurement 5</td>
-										<td>
-											<span id="unit-5" style="visibility: hidden;">Unit 5</span>
-										</td>
-									</tr>
-									<tr>
-										<td>Measurement 6</td>
-										<td>
-											<span id="unit-6" style="visibility: hidden;">Unit 6</span>
-										</td>
-									</tr>
-									<tr>
-										<td>Measurement 7</td>
-										<td>
-											<span id="unit-7" style="visibility: hidden;">Unit 7</span>
-										</td>
-									</tr>
-									<tr>
-										<td>Measurement 8</td>
-										<td>
-											<span id="unit-8" style="visibility: hidden;">Unit 8</span>
-										</td>
-									</tr>
-									<tr>
-										<td>Measurement 9</td>
-										<td>
-											<span id="unit-9" style="visibility: hidden;">Unit 9</span>
+											<span id="unit-2" style="visibility: hidden;"><strong>Any unit of time</strong> (e.g. ms, s, min, hr, days, years, etc.)</span>
 										</td>
 									</tr>
 								</tbody>
@@ -140,57 +98,57 @@
 									</thead>
 									<tbody>
 										<tr>
-											<td>Relationship 1</td>
+											<td>Atomic Number and number of protons in an atom</td>
 											<td>
-												<span id="formula-1" style="visibility: hidden;">Formula 1</span>
+												<span id="formula-1" style="visibility: hidden;">Atomic Number = Number of protons in an atom</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Relationship 2</td>
+											<td>Mass Number, Atomic Number and the number of neutrons</td>
 											<td>
-												<span id="formula-2" style="visibility: hidden;">Formula 2</span>
+												<span id="formula-2" style="visibility: hidden;">Number of Neutrons = Mass Number - Atomic Number</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Relationship 3</td>
+											<td>Atomic Number and number of electrons in a <em>neutral atom</em></td>
 											<td>
-												<span id="formula-3" style="visibility: hidden;">Formula 3</span>
+												<span id="formula-3" style="visibility: hidden;">Atomic Number = number of electrons</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Relationship 4</td>
+											<td>Mass Number of atom before &alpha; decay (X) and mass number of atom after &alpha; decay (Y)</td>
 											<td>
-												<span id="formula-4" style="visibility: hidden;">Formula 4</span>
+												<span id="formula-4" style="visibility: hidden;">X &#8594; Y + 4</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Relationship 5</td>
+											<td>Atomic Number of atom before &alpha; decay (X) and atomic number of atom after &alpha; decay (Y)</td>
 											<td>
-												<span id="formula-5" style="visibility: hidden;">Formula 5</span>
+												<span id="formula-5" style="visibility: hidden;">X &#8594; Y + 2</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Relationship 6</td>
+											<td>Mass Number of atom before &beta; decay (X) and mass number of atom after &beta; decay (Y)</td>
 											<td>
-												<span id="formula-6" style="visibility: hidden;">Formula 6</span>
+												<span id="formula-6" style="visibility: hidden;">X &#8594; Y</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Relationship 7</td>
+											<td>Atomic Number of atom before &beta; decay (X) and atomic number of atom after &beta; decay (Y)</td>
 											<td>
-												<span id="formula-7" style="visibility: hidden;">Formula 7</span>
+												<span id="formula-7" style="visibility: hidden;">X &#8594; Y - 1</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Relationship 8</td>
+											<td>Mass Number of atom before &gamma; decay (X) and mass number of atom after &gamma; decay (Y)</td>
 											<td>
-												<span id="formula-8" style="visibility: hidden;">Formula 8</span>
+												<span id="formula-8" style="visibility: hidden;">X &#8594; Y (+ 0)</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Relationship 9</td>
+											<td>Atomic Number of atom before &gamma; decay (X) and atomic number of atom after &gamma; decay (Y)</td>
 											<td>
-												<span id="formula-9" style="visibility: hidden;">Formula 9</span>
+												<span id="formula-9" style="visibility: hidden;">X &#8594; Y (+ 0)</span>
 											</td>
 										</tr>
 									</tbody>
@@ -219,123 +177,123 @@
 									</thead>
 									<tbody>
 										<tr>
-											<td>Key 1</td>
+											<td>The atomic number shows ... </td>
 											<td>
-												<span id="definition-1" style="visibility: hidden;">Def 1</span>
+												<span id="definition-1" style="visibility: hidden;">the number of protons in an atom</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Key 2</td>
+											<td>The mass number shows ... </td>
 											<td>
-												<span id="definition-2" style="visibility: hidden;">Def 2</span>
+												<span id="definition-2" style="visibility: hidden;">the total number of protons and neutrons in an atom</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Key 3</td>
+											<td>How do you find the number of neutrons in an atom?</td>
 											<td>
-												<span id="definition-3" style="visibility: hidden;">Def 3</span>
+												<span id="definition-3" style="visibility: hidden;">By subtracting the mass number from the atomic number.</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Key 4</td>
+											<td>Which subatomic particle has a positive charge?</td>
 											<td>
-												<span id="definition-4" style="visibility: hidden;">Def 4</span>
+												<span id="definition-4" style="visibility: hidden;">protons</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Key 5</td>
+											<td>Which subatomic particle has no charge?</td>
 											<td>
-												<span id="definition-5" style="visibility: hidden;">Def 5</span>
+												<span id="definition-5" style="visibility: hidden;">neutrons</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Key 6</td>
+											<td>Which subatomic particle has a negative charge?</td>
 											<td>
-												<span id="definition-6" style="visibility: hidden;">Def 6</span>
+												<span id="definition-6" style="visibility: hidden;">electrons</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Key 7</td>
+											<td>Which subatomic particle has the lowest mass out of the three, and by approximately how many times?</td>
 											<td>
-												<span id="definition-7" style="visibility: hidden;">Def 7</span>
+												<span id="definition-7" style="visibility: hidden;">Electrons have the lowest mass.  They are approximately 2000 times less massive than protons and neutrons.</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Key 8</td>
+											<td>What are isotopes?</td>
 											<td>
-												<span id="definition-8" style="visibility: hidden;">Def 8</span>
+												<span id="definition-8" style="visibility: hidden;">Isotopes are atoms with the <strong>same number of protons</strong> but a <strong>different number of neutrons</strong> OR Isotopes are atoms with the same atomic number but different mass number</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Key 9</td>
+											<td>What relative mass and charge does an &alpha; particle have?</td>
 											<td>
-												<span id="definition-9" style="visibility: hidden;">Def 9</span>
+												<span id="definition-9" style="visibility: hidden;">It has a relative mass of 4 and a charge of +2.</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Key 10</td>
+											<td>What relative mass and charge does a &beta; particle have?</td>
 											<td>
-												<span id="definition-10" style="visibility: hidden;">Def 10</span>
+												<span id="definition-10" style="visibility: hidden;">It has a relative mass of 0 and a charge of -1.</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Key 11</td>
+											<td>Which type of radiation (out of the three) is the most ionising?</td>
 											<td>
-												<span id="definition-11" style="visibility: hidden;">Def 11</span>
+												<span id="definition-11" style="visibility: hidden;">&alpha; radiation</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Key 12</td>
+											<td>Which type of radiation (out of the three) has the highest penetrating power?</td>
 											<td>
-												<span id="definition-12" style="visibility: hidden;">Def 12</span>
+												<span id="definition-12" style="visibility: hidden;">&gamma; radiation</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Key 13</td>
+											<td>Which type of radiation can pass through paper but not aluminium foil?</td>
 											<td>
-												<span id="definition-13" style="visibility: hidden;">Def 13</span>
+												<span id="definition-13" style="visibility: hidden;">&beta; particles</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Key 14</td>
+											<td>Which type of radiation is stopped by a few cm of air?</td>
 											<td>
-												<span id="definition-14" style="visibility: hidden;">Def 14</span>
+												<span id="definition-14" style="visibility: hidden;">&alpha; particles</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Key 15</td>
+											<td>Which type of radiation would be most suitable for use as a tracer in the body?  Explain if possible.</td>
 											<td>
-												<span id="definition-15" style="visibility: hidden;">Def 15</span>
+												<span id="definition-15" style="visibility: hidden;">&gamma; radiation (since it has the highest penetrating power, it can easily be detected outside of the body)</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Key 16</td>
+											<td>Would you want the radioactive source in a smoke detector to have a short or long half-life?  Why?</td>
 											<td>
-												<span id="definition-16" style="visibility: hidden;">Def 16</span>
+												<span id="definition-16" style="visibility: hidden;">Long half-life, because the smoke detector detects changes in radiation.  If it had a short half-life, the count rate would decrease very quickly, which would trigger the alarm unnecessarily.</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Key 17</td>
+											<td>To control the thickness of paper in a paper mill, which type of radiation would you use and why?</td>
 											<td>
-												<span id="definition-17" style="visibility: hidden;">Def 17</span>
+												<span id="definition-17" style="visibility: hidden;">&beta; radiation, because when the paper is thin, it can easily penetrate it, but if the paper is too thick, then some will be blocked and the change in count rate can be detected.</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Key 18</td>
+											<td>Name a source of background radiation.</td>
 											<td>
-												<span id="definition-18" style="visibility: hidden;">Def 18</span>
+												<span id="definition-18" style="visibility: hidden;">(any one of) radon gas, ground and buildings, medical usage, nuclear power, cosmic radiation, food and drink</span>
 											</td>
 										</tr>
 										<tr>
-											<td>Key 19</td>
+											<td>Define half-life. (Hint: Stick to the I/GCSE definition.)</td>
 											<td>
-												<span id="definition-19" style="visibility: hidden;">Def 19</span>
+												<span id="definition-19" style="visibility: hidden;">The half-life of a radioactive sample is the <strong>average time</strong> taken for the <strong>radioactivity</strong> of a sample to fall to <strong>half its original value</strong>.  <em>(Note: The definition given in the Edexcel I/GCSE Student Book is not accepted in the I/GCSE exam)</em></span>
 											</td>
 										</tr>
 										<tr>
-											<td>Key 20</td>
+											<td>Describe a possible effect of ionising radiation.</td>
 											<td>
-												<span id="definition-20" style="visibility: hidden;">Def 20</span>
+												<span id="definition-20" style="visibility: hidden;">Ionising radiation may damage living cells and cause them to mutate.  This may lead to cancer.</span>
 											</td>
 										</tr>
 									</tbody>
@@ -350,11 +308,54 @@
 					</div>
 					<div class="12u$">
 						<h3>Exam-Style Question</h3>
-						<p><em>Here is the exam-style question.</em></p>
+						<p>(a) Which of these is measured in Bq? <strong>(1 mark)</strong></p>
+						<ul>
+							<li>activity</li>
+							<li>frequency</li>
+							<li>half-life</li>
+							<li>radiation</li>
+						</ul>
+						<p>(b) Which of these has a nucleon number of 4?  <strong>(1 mark)</strong></p>
+						<ul>
+							<li>alpha particle</li>
+							<li>beta particle</li>
+							<li>gamma rays</li>
+							<li>x-rays</li>
+						</ul>
+						<p>(c) Which of these is the same as an electron?  <strong>(1 mark)</strong></p>
+						<ul>
+							<li>alpha particle</li>
+							<li>beta particle</li>
+							<li>gamma rays</li>
+							<li>x-rays</li>
+						</ul>
+						<p>(d) Which of these is the most ionising?  <strong>(1 mark)</strong></p>
+						<ul>
+							<li>alpha particle</li>
+							<li>beta particle</li>
+							<li>gamma rays</li>
+							<li>x-rays</li>
+						</ul>
 						<h3>Mark Scheme</h3>
 						<p><span id="show-mark-scheme">[<a onclick="document.getElementById('hide-mark-scheme').style.display = 'block'; document.getElementById('show-mark-scheme').style.display = 'none'; document.getElementById('mark-scheme').style.display = 'block'; ">Show</a>]</span><span id="hide-mark-scheme" style="display: none;">[<a onclick="document.getElementById('hide-mark-scheme').style.display = 'none'; document.getElementById('show-mark-scheme').style.display = 'block'; document.getElementById('mark-scheme').style.display = 'none'; ">Hide</a>]</span></p>
 						<div id="mark-scheme" style="display: none;">
 							<p><em>Key: One tick on the mark scheme is equivalent to one mark.</em></p>
+							<p>Part (a):</p>
+							<ul class="alt">
+								<li><span class="icon fa-check"></span> Activity</li>
+							</ul>
+							<p>Part (b):</p>
+							<ul class="alt">
+								<li><span class="icon fa-check"></span> alpha particle</li>
+							</ul>
+							<p>Part (c):</p>
+							<ul class="alt">
+								<li><span class="icon fa-check"></span> beta particle</li>
+							</ul>
+							<p>Part (d):</p>
+							<ul class="alt">
+								<li><span class="icon fa-check"></span> alpha particle</li>
+							</ul>
 						</div>
 					</div>
 				</div>
